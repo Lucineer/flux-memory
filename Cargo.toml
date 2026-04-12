@@ -2,3 +2,7 @@
 name = "flux-memory"
 version = "0.1.0"
 edition = "2021"
+description = "Key-value store with TTL, versioning, snapshots — the hippocampus of an agent"
+
+[dependencies]
+rand = "0.8"
